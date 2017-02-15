@@ -3,12 +3,12 @@ body {
 }
 @font-face {
 	font-family: "Nickainley-Normal";
-	src: url("Nickainley-Normal.otf");
+	src: url("typeface/Nickainley-Normal.otf");
 }
 
 @font-face {
 	font-family: "Montserrat-Light";
-	src: url("Montserrat-Light.otf");
+	src: url("typeface/Montserrat-Light.otf");
 }
 /*#lightbulb{
 	width: 100px;
