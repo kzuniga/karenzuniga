@@ -1,0 +1,78 @@
+body {
+	background-color: #292929;
+}
+@font-face {
+	font-family: "Nickainley-Normal";
+	src: url("Nickainley-Normal.otf");
+}
+
+@font-face {
+	font-family: "Montserrat-Light";
+	src: url("Montserrat-Light.otf");
+}
+/*#lightbulb{
+	width: 100px;
+	height: 100px;
+	top: 320px;
+	left: 150px;
+	position: absolute;
+}
+a {
+	width: 100px;
+	height: 100px;
+
+}
+*/
+.ojo {
+	width: 50%;
+	height: auto;
+	position: absolute;
+	top: 60px;
+	left: 320px;
+}
+
+#name {
+	color: #FFC4B4;
+	font-family: Nickainley-Normal;
+	left: 520px;
+	top: 580px;
+	font-size: 42pt;
+	position: absolute;
+}
+
+#links {
+	width: 400px;
+	height: auto;
+	color: #FFFFFF;
+	font-family: Montserrat-Light;
+	position: absolute;
+	left: 445px;
+	top: 690px;
+	font-size: 12pt;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {	
+    color: #FFC4B4;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+

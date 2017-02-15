@@ -1,0 +1,51 @@
+a {
+ 	font-family: Montserrat-Light;
+}
+@font-face {
+	font-family: "Montserrat-Light";
+	src: url("Montserrat-Light.otf");
+}
+#canvas {
+	width: 1150px;
+	height: 1000px;
+	position: absolute;
+	margin: 50px;
+}
+
+#portfolio {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	font-size: 36px;
+	font-family: Montserrat-Light;
+}
+#links {
+	color: #000000;
+	font-family: Montserrat-Light;
+	position: absolute;
+	left: 220px;
+	top: 20px;
+	font-size: 12pt;
+}
+/* unvisited link */
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {	
+    color: #FFC4B4;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
